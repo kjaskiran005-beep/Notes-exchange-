@@ -7,11 +7,34 @@
 <style>
 *{box-sizing:border-box;font-family:'Segoe UI',sans-serif}
 body{margin:0;background:#FFF7ED}
-header{background:#FF6B35;color:white;padding:20px;text-align:center;border-radius:0 0 20px 20px}
+header{background:#FF6B35;color:white;padding:20px;text-align:center}
 header h1{margin:0;font-size:26px}
-header p{margin:5px 0 0;opacity:.9;font-size:13px}
+header p{margin:5px 0 0;opacity:.9}
 .container{padding:15px;max-width:700px;margin:auto}
-.card{background:white;padding:15px;border-radius:15px;box-shadow:0 2px 10px #00000010;margin-bottom:15px}
-input,select,textarea{width:100%;padding:12px;margin:6px 0;border:1.5px solid #FFE0CC;border-radius:10px;outline:none;font-size:14px}
-button{background:#FF6B35;color:white
-       
+.card{background:white;padding:15px;border-radius:12px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+input,select,textarea{width:100%;padding:10px;margin:6px 0;border:1px solid #ddd;border-radius:8px}
+button{background:#FF6B35;color:white;border:none;padding:12px;width:100%;border-radius:8px;font-size:16px}
+</style>
+</head>
+<body>
+<header>
+<h1>📚 Notes Exchange</h1>
+<p>Class 1 to 12 - Search karke koi bhi topic aasani se mil jata</p>
+</header>
+<div class="container">
+<div class="card">
+<h3>🔍 Notes Search Karo</h3>
+<input type="text" placeholder="Jaise - Photosynthesis, Maths...">
+<select><option>Class Select Karo</option><option>Class 1</option><option>Class 5</option><option>Class 10</option><option>Class 12</option></select>
+<button>Search Notes</button>
+</div>
+<div class="card">
+<h3>📤 Apne Notes Share Karo</h3>
+<input type="text" placeholder="Tera Naam">
+<input type="text" placeholder="Topic Ka Naam">
+<textarea placeholder="Notes ke baare me likho..."></textarea>
+<button>Upload Notes</button>
+</div>
+</div>
+</body>
+</html>
